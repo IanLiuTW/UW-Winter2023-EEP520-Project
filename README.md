@@ -1,4 +1,6 @@
-# EEP_520_Winter2023 Final Project
+# EE P 520 A Wi 23: Software Engineering For Embedded Applications
+
+Final Project
 
 ## Project Goal
 
