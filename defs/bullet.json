@@ -1,0 +1,52 @@
+{
+  "name": "Bullet",
+  "type": "dynamic",
+  "description": "The bullet that try to hit the target.",
+  "shape": [
+    {
+      "x": -8,
+      "y": 4
+    },
+    {
+      "x": 4,
+      "y": 4
+    },
+    {
+      "x": 6,
+      "y": 0
+    },
+    {
+      "x": 4,
+      "y": -4
+    },
+    {
+      "x": -8,
+      "y": -4
+    }
+  ],
+  "friction": {
+    "collision": 5,
+    "linear": 5,
+    "rotational": 600
+  },
+  "sensors": [
+    {
+      "type": "range",
+      "location": {
+        "x": 4,
+        "y": 4
+      },
+      "direction": 0.1
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 4,
+        "y": -4
+      },
+      "direction": -0.1
+    }
+  ],
+  "mass": 1,
+  "controller": "lib/bullet.so"
+}

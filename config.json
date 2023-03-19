@@ -1,0 +1,295 @@
+{
+    "name": "EEP 520 Project - Ian Liu",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "buttons": [
+        {
+            "name": "new_game",
+            "label": "New Game",
+            "style": {
+                "background": "white",
+                "border-color": "black"
+            }
+        }
+    ],
+    "agents": [
+        {
+            "definition": "defs/leader.json",
+            "style": {
+                "fill": "blue",
+                "stroke": "black"
+            },
+            "position": {
+                "x": -300,
+                "y": 150,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/goal.json",
+            "style": {
+                "fill": "gold",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/gunner.json",
+            "style": {
+                "fill": "black",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/bullet.json",
+            "style": {
+                "fill": "black",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 1000,
+                "y": 1000,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/bullet.json",
+            "style": {
+                "fill": "black",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 1000,
+                "y": 1000,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/score.json",
+            "style": {
+                "fill": "white",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 0,
+                "y": -300,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": {
+                "fill": "silver",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 1000,
+                "y": 1000,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": {
+                "fill": "silver",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 1000,
+                "y": 1000,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": {
+                "fill": "silver",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 1000,
+                "y": 1000,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": {
+                "fill": "silver",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 1000,
+                "y": 1000,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": {
+                "fill": "silver",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 1000,
+                "y": 1000,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": {
+                "fill": "silver",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 1000,
+                "y": 1000,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": {
+                "fill": "silver",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 1000,
+                "y": 1000,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": {
+                "fill": "silver",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 1000,
+                "y": 1000,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": {
+                "fill": "silver",
+                "stroke": "black"
+            },
+            "position": {
+                "x": 1000,
+                "y": 1000,
+                "theta": 0
+            }
+        }
+    ],
+    "statics": [
+        {
+            "style": {
+                "fill": "gray",
+                "stroke": "none"
+            },
+            "shape": [
+                {
+                    "x": -350,
+                    "y": -200
+                },
+                {
+                    "x": -350,
+                    "y": 200
+                },
+                {
+                    "x": -340,
+                    "y": 200
+                },
+                {
+                    "x": -340,
+                    "y": -200
+                }
+            ]
+        },
+        {
+            "style": {
+                "fill": "gray",
+                "stroke": "none"
+            },
+            "shape": [
+                {
+                    "x": 350,
+                    "y": -200
+                },
+                {
+                    "x": 350,
+                    "y": 200
+                },
+                {
+                    "x": 340,
+                    "y": 200
+                },
+                {
+                    "x": 340,
+                    "y": -200
+                }
+            ]
+        },
+        {
+            "style": {
+                "fill": "gray",
+                "stroke": "none"
+            },
+            "shape": [
+                {
+                    "x": -350,
+                    "y": 200
+                },
+                {
+                    "x": 350,
+                    "y": 200
+                },
+                {
+                    "x": 350,
+                    "y": 190
+                },
+                {
+                    "x": -350,
+                    "y": 190
+                }
+            ]
+        },
+        {
+            "style": {
+                "fill": "gray",
+                "stroke": "none"
+            },
+            "shape": [
+                {
+                    "x": -350,
+                    "y": -200
+                },
+                {
+                    "x": 350,
+                    "y": -200
+                },
+                {
+                    "x": 350,
+                    "y": -190
+                },
+                {
+                    "x": -350,
+                    "y": -190
+                }
+            ]
+        }
+    ]
+}
